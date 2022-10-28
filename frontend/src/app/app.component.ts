@@ -49,4 +49,9 @@ export class AppComponent implements OnInit{
    const box = await this.http.deleteBox(id);
    this.box = this.box.filter((b: { id: any; }) => b.id != box.id)
   }
+
+  async editBox(id: any) {
+    const box = await this.http.editBox(id);
+    this.box = this.box.filter((b: { id: any; }) => b.id != box.id)
+  }
 }
