@@ -48,7 +48,7 @@ export class HttpService {
     return httpResponse.data;
   }
 
-  async editBox(id : any) {
+  async editBox(id : any, dto: { size: any; type: any; customerName: any }) {
     const httpResponse = await customAxios.put('box/' + id)
     return httpResponse.data;
   }

@@ -51,7 +51,15 @@ export class AppComponent implements OnInit{
   }
 
   async editBox(id: any) {
-    const box = await this.http.editBox(id);
-    this.box = this.box.filter((b: { id: any; }) => b.id != box.id)
+    console.log(this.BoxSize);
+    console.log(this.CustomerName);
+    console.log(this.Type);
+    let dto = {
+      size: this.BoxSize,
+      customerName: this.CustomerName,
+      type: this.Type,
+    }
+    const box = await this.http.editBox(id, dto);
+    this.box.put(box);
   }
 }
