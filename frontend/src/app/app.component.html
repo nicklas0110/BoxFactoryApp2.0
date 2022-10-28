@@ -3,28 +3,29 @@
   <br>
   <br>
   <mat-form-field style="margin-left:100px ">
-    <input matInput [(ngModel)]="BoxSize" placeholder="box size" >
+    <input matInput [(ngModel)]="formModel.size" placeholder="box size" >
   </mat-form-field>
 
   <br>
   <br>
   <mat-form-field style="margin-left:100px ">
-    <input matInput [(ngModel)]="CustomerName"  placeholder="your name">
+    <input matInput [(ngModel)]="formModel.customerName"  placeholder="your name">
   </mat-form-field>
   <br>
   <br>
-  <mat-form-field style="margin-left:100px ">
-    <input matInput [(ngModel)]="Type" placeholder="type of box" >
+  <mat-form-field style="margin-left:100px; margin-top:100px">
+    <input matInput [(ngModel)]="formModel.type" placeholder="type of box" >
   </mat-form-field>
 <br>
   <br>
   <br>
-<button [disabled]="BoxSize == '' || CustomerName == '' || Type == '' " mat-raised-button (click)="createBox()" style="margin-left:125px">Create Box</button>
+<button [disabled]="formModel.size == '' || formModel.customerName == '' || formModel.type == '' " mat-raised-button (click)="postForm()" style="margin-left:125px">{{ formModel.id === 0 ? 'Create' : 'Edit'}}</button>
+<button mat-raised-button (click)="clearForm()" style="margin-left:125px">Clear</button>
 
   <br>
   <br>
   <br>
-  <mat-card *ngFor="let b of box" style="margin-left: 50px" >
+<mat-card *ngFor="let b of boxes" class="box-card" (click)="selectCard(b)">
   <mat-card-title>Size: {{b.size}}</mat-card-title>
   <br>
   <mat-card-title>Name: {{b.customerName}}</mat-card-title>
@@ -34,7 +35,6 @@
   <mat-card-title>Id: {{b.id}}</mat-card-title>
   <mat-card-actions>
     <button mat-button (click)="deleteBox(b.id)">Delete</button>
-    <button mat-button  [disabled]="BoxSize == '' || CustomerName == '' || Type == '' " (click)="editBox(b.id)"  [disabled]="BoxSize == '' || CustomerName == '' || Type == '' " >Edit</button>
   </mat-card-actions>
 </mat-card>
 
