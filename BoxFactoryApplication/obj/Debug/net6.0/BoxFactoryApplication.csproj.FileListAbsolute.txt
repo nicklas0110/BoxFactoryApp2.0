@@ -1,0 +1,15 @@
+C:\Users\Nickl\RiderProjects\BoxFactoryApp\BoxFactoryApplication\bin\Debug\net6.0\BoxFactoryApplication.deps.json
+C:\Users\Nickl\RiderProjects\BoxFactoryApp\BoxFactoryApplication\bin\Debug\net6.0\BoxFactoryApplication.dll
+C:\Users\Nickl\RiderProjects\BoxFactoryApp\BoxFactoryApplication\bin\Debug\net6.0\BoxFactoryApplication.pdb
+C:\Users\Nickl\RiderProjects\BoxFactoryApp\BoxFactoryApplication\bin\Debug\net6.0\BoxFactoryDomain.dll
+C:\Users\Nickl\RiderProjects\BoxFactoryApp\BoxFactoryApplication\bin\Debug\net6.0\BoxFactoryDomain.pdb
+C:\Users\Nickl\RiderProjects\BoxFactoryApp\BoxFactoryApplication\obj\Debug\net6.0\BoxFactoryApplication.csproj.AssemblyReference.cache
+C:\Users\Nickl\RiderProjects\BoxFactoryApp\BoxFactoryApplication\obj\Debug\net6.0\BoxFactoryApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nickl\RiderProjects\BoxFactoryApp\BoxFactoryApplication\obj\Debug\net6.0\BoxFactoryApplication.AssemblyInfoInputs.cache
+C:\Users\Nickl\RiderProjects\BoxFactoryApp\BoxFactoryApplication\obj\Debug\net6.0\BoxFactoryApplication.AssemblyInfo.cs
+C:\Users\Nickl\RiderProjects\BoxFactoryApp\BoxFactoryApplication\obj\Debug\net6.0\BoxFactoryApplication.csproj.CoreCompileInputs.cache
+C:\Users\Nickl\RiderProjects\BoxFactoryApp\BoxFactoryApplication\obj\Debug\net6.0\BoxFactoryApplication.csproj.CopyComplete
+C:\Users\Nickl\RiderProjects\BoxFactoryApp\BoxFactoryApplication\obj\Debug\net6.0\BoxFactoryApplication.dll
+C:\Users\Nickl\RiderProjects\BoxFactoryApp\BoxFactoryApplication\obj\Debug\net6.0\refint\BoxFactoryApplication.dll
+C:\Users\Nickl\RiderProjects\BoxFactoryApp\BoxFactoryApplication\obj\Debug\net6.0\BoxFactoryApplication.pdb
+C:\Users\Nickl\RiderProjects\BoxFactoryApp\BoxFactoryApplication\obj\Debug\net6.0\ref\BoxFactoryApplication.dll

@@ -1,0 +1,17 @@
+C:\Users\Nickl\RiderProjects\BoxFactoryApp\BoxFactoryInfrastructure\bin\Debug\net6.0\BoxFactoryInfrastructure.deps.json
+C:\Users\Nickl\RiderProjects\BoxFactoryApp\BoxFactoryInfrastructure\bin\Debug\net6.0\BoxFactoryInfrastructure.dll
+C:\Users\Nickl\RiderProjects\BoxFactoryApp\BoxFactoryInfrastructure\bin\Debug\net6.0\BoxFactoryInfrastructure.pdb
+C:\Users\Nickl\RiderProjects\BoxFactoryApp\BoxFactoryInfrastructure\bin\Debug\net6.0\BoxFactoryApplication.dll
+C:\Users\Nickl\RiderProjects\BoxFactoryApp\BoxFactoryInfrastructure\bin\Debug\net6.0\BoxFactoryDomain.dll
+C:\Users\Nickl\RiderProjects\BoxFactoryApp\BoxFactoryInfrastructure\bin\Debug\net6.0\BoxFactoryApplication.pdb
+C:\Users\Nickl\RiderProjects\BoxFactoryApp\BoxFactoryInfrastructure\bin\Debug\net6.0\BoxFactoryDomain.pdb
+C:\Users\Nickl\RiderProjects\BoxFactoryApp\BoxFactoryInfrastructure\obj\Debug\net6.0\BoxFactoryInfrastructure.csproj.AssemblyReference.cache
+C:\Users\Nickl\RiderProjects\BoxFactoryApp\BoxFactoryInfrastructure\obj\Debug\net6.0\BoxFactoryInfrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nickl\RiderProjects\BoxFactoryApp\BoxFactoryInfrastructure\obj\Debug\net6.0\BoxFactoryInfrastructure.AssemblyInfoInputs.cache
+C:\Users\Nickl\RiderProjects\BoxFactoryApp\BoxFactoryInfrastructure\obj\Debug\net6.0\BoxFactoryInfrastructure.AssemblyInfo.cs
+C:\Users\Nickl\RiderProjects\BoxFactoryApp\BoxFactoryInfrastructure\obj\Debug\net6.0\BoxFactoryInfrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Nickl\RiderProjects\BoxFactoryApp\BoxFactoryInfrastructure\obj\Debug\net6.0\BoxFactoryInfrastructure.csproj.CopyComplete
+C:\Users\Nickl\RiderProjects\BoxFactoryApp\BoxFactoryInfrastructure\obj\Debug\net6.0\BoxFactoryInfrastructure.dll
+C:\Users\Nickl\RiderProjects\BoxFactoryApp\BoxFactoryInfrastructure\obj\Debug\net6.0\refint\BoxFactoryInfrastructure.dll
+C:\Users\Nickl\RiderProjects\BoxFactoryApp\BoxFactoryInfrastructure\obj\Debug\net6.0\BoxFactoryInfrastructure.pdb
+C:\Users\Nickl\RiderProjects\BoxFactoryApp\BoxFactoryInfrastructure\obj\Debug\net6.0\ref\BoxFactoryInfrastructure.dll

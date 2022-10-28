@@ -5,7 +5,7 @@ import {MatSnackBar} from "@angular/material/snack-bar";
 import {catchError} from "rxjs";
 
 export const customAxios = axios.create({
-  baseURL: 'https://localhost:7153'
+  baseURL: 'http://localhost:5111'
 })
 
 @Injectable({
@@ -33,7 +33,7 @@ export class HttpService {
   }
 
   async getBox(){
-    const httpResponse = await customAxios.get('box/GetAll');
+    const httpResponse = await customAxios.get('box');
     return httpResponse.data;
   }
 
@@ -44,7 +44,7 @@ export class HttpService {
   }
 
   async deleteBox(id : any) {
-    const httpResponse = await customAxios.delete('box' + id)
+    const httpResponse = await customAxios.delete('box/' + id)
     return httpResponse.data;
   }
 

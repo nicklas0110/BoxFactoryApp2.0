@@ -1,0 +1,195 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Nickl\\RiderProjects\\BoxFactoryApp\\BoxFactoryInfrastructure\\BoxFactoryInfrastructure.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Nickl\\RiderProjects\\BoxFactoryApp\\BoxFactoryApplication\\BoxFactoryApplication.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Nickl\\RiderProjects\\BoxFactoryApp\\BoxFactoryApplication\\BoxFactoryApplication.csproj",
+        "projectName": "BoxFactoryApplication",
+        "projectPath": "C:\\Users\\Nickl\\RiderProjects\\BoxFactoryApp\\BoxFactoryApplication\\BoxFactoryApplication.csproj",
+        "packagesPath": "C:\\Users\\Nickl\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nickl\\RiderProjects\\BoxFactoryApp\\BoxFactoryApplication\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Nickl\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Nickl\\RiderProjects\\BoxFactoryApp\\BoxFactoryDomain\\BoxFactoryDomain.csproj": {
+                "projectPath": "C:\\Users\\Nickl\\RiderProjects\\BoxFactoryApp\\BoxFactoryDomain\\BoxFactoryDomain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.2.2, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0-rc.2.22472.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Nickl\\RiderProjects\\BoxFactoryApp\\BoxFactoryDomain\\BoxFactoryDomain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Nickl\\RiderProjects\\BoxFactoryApp\\BoxFactoryDomain\\BoxFactoryDomain.csproj",
+        "projectName": "BoxFactoryDomain",
+        "projectPath": "C:\\Users\\Nickl\\RiderProjects\\BoxFactoryApp\\BoxFactoryDomain\\BoxFactoryDomain.csproj",
+        "packagesPath": "C:\\Users\\Nickl\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nickl\\RiderProjects\\BoxFactoryApp\\BoxFactoryDomain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Nickl\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Nickl\\RiderProjects\\BoxFactoryApp\\BoxFactoryInfrastructure\\BoxFactoryInfrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Nickl\\RiderProjects\\BoxFactoryApp\\BoxFactoryInfrastructure\\BoxFactoryInfrastructure.csproj",
+        "projectName": "BoxFactoryInfrastructure",
+        "projectPath": "C:\\Users\\Nickl\\RiderProjects\\BoxFactoryApp\\BoxFactoryInfrastructure\\BoxFactoryInfrastructure.csproj",
+        "packagesPath": "C:\\Users\\Nickl\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nickl\\RiderProjects\\BoxFactoryApp\\BoxFactoryInfrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Nickl\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Nickl\\RiderProjects\\BoxFactoryApp\\BoxFactoryApplication\\BoxFactoryApplication.csproj": {
+                "projectPath": "C:\\Users\\Nickl\\RiderProjects\\BoxFactoryApp\\BoxFactoryApplication\\BoxFactoryApplication.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0-rc.2.22472.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

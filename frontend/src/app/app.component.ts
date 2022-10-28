@@ -7,9 +7,9 @@ import {HttpService} from "../services/http.service";
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit{
-  BoxSize: any;
-  CustomerName: any;
-  Type: any;
+  BoxSize: string = "";
+  CustomerName: string = "";
+  Type: string = "";
   box: any;
 
 
@@ -24,7 +24,7 @@ export class AppComponent implements OnInit{
 
  async ngOnInit(){
     const boxData = await this.http.getBox();
-    this.box = boxData.data;
+    this.box = boxData;
   }
 
   async createBox(){

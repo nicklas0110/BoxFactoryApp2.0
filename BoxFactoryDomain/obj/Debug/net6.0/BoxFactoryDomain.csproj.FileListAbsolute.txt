@@ -1,0 +1,12 @@
+C:\Users\Nickl\RiderProjects\BoxFactoryApp\BoxFactoryDomain\bin\Debug\net6.0\BoxFactoryDomain.deps.json
+C:\Users\Nickl\RiderProjects\BoxFactoryApp\BoxFactoryDomain\bin\Debug\net6.0\BoxFactoryDomain.dll
+C:\Users\Nickl\RiderProjects\BoxFactoryApp\BoxFactoryDomain\bin\Debug\net6.0\BoxFactoryDomain.pdb
+C:\Users\Nickl\RiderProjects\BoxFactoryApp\BoxFactoryDomain\obj\Debug\net6.0\BoxFactoryDomain.csproj.AssemblyReference.cache
+C:\Users\Nickl\RiderProjects\BoxFactoryApp\BoxFactoryDomain\obj\Debug\net6.0\BoxFactoryDomain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nickl\RiderProjects\BoxFactoryApp\BoxFactoryDomain\obj\Debug\net6.0\BoxFactoryDomain.AssemblyInfoInputs.cache
+C:\Users\Nickl\RiderProjects\BoxFactoryApp\BoxFactoryDomain\obj\Debug\net6.0\BoxFactoryDomain.AssemblyInfo.cs
+C:\Users\Nickl\RiderProjects\BoxFactoryApp\BoxFactoryDomain\obj\Debug\net6.0\BoxFactoryDomain.csproj.CoreCompileInputs.cache
+C:\Users\Nickl\RiderProjects\BoxFactoryApp\BoxFactoryDomain\obj\Debug\net6.0\BoxFactoryDomain.dll
+C:\Users\Nickl\RiderProjects\BoxFactoryApp\BoxFactoryDomain\obj\Debug\net6.0\refint\BoxFactoryDomain.dll
+C:\Users\Nickl\RiderProjects\BoxFactoryApp\BoxFactoryDomain\obj\Debug\net6.0\BoxFactoryDomain.pdb
+C:\Users\Nickl\RiderProjects\BoxFactoryApp\BoxFactoryDomain\obj\Debug\net6.0\ref\BoxFactoryDomain.dll
