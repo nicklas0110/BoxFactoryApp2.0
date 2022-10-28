@@ -42,3 +42,8 @@ testem.log
 .DS_Store
 Thumbs.db
 *.db
+*.dll
+*.pdb
+*.cache
+*.props
+*.json
