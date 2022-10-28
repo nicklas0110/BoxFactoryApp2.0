@@ -25,7 +25,7 @@ public class BoxController : ControllerBase
         return _boxService.GetAllNBoxes();
     }
 
-    [HttpPost]
+    [HttpPost]  
     [Route("")]
     public ActionResult<Box> CreateNewBox(BoxDTOs dto)
     {

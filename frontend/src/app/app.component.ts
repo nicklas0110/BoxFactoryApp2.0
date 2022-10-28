@@ -17,8 +17,6 @@ export class AppComponent implements OnInit{
 
   constructor(private http : HttpService) {
 
-
-
   }
 
 
@@ -36,6 +34,9 @@ export class AppComponent implements OnInit{
     const result = await this.http.createBox(dto);
     this.box.push(result);
     console.log(result.data);
+    this.BoxSize = "";
+    this.CustomerName = "";
+    this.Type = "";
   }
 
   writeBoxSize(){
@@ -55,11 +56,17 @@ export class AppComponent implements OnInit{
     console.log(this.CustomerName);
     console.log(this.Type);
     let dto = {
+      id: id,
       size: this.BoxSize,
       customerName: this.CustomerName,
       type: this.Type,
     }
     const box = await this.http.editBox(id, dto);
-    this.box.put(box);
+    console.log("This is box", box);
+    this.box = this.box.filter((b: { id: any; }) => b.id != box.id)
+    this.box.push(box);
+    this.BoxSize = "";
+    this.CustomerName = "";
+    this.Type = "";
   }
 }
