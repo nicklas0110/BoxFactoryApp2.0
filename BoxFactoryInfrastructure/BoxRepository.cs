@@ -16,7 +16,7 @@ public class BoxRepository : IBoxRepository
         return _context.BoxTable.ToList();
     }
 
-    public  Box CreateNewBox(Box box)
+    public Box CreateNewBox(Box box)
     {
         _context.BoxTable.Add(box);
         _context.SaveChanges();
