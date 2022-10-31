@@ -48,6 +48,7 @@ export class HttpService {
     return httpResponse.data;
   }
 
+  // puts to the backend using an id and the dto class whits also contain an id and edits
   async editBox(id : any, dto: { size: any; type: any; customerName: any }) {
     const httpResponse = await customAxios.put('box/' + id, dto)
     return httpResponse.data;

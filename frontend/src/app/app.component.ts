@@ -8,9 +8,9 @@ import {HttpService} from "../services/http.service";
 })
 
 export class AppComponent implements OnInit{
-  formModel : Box = new Box();
+  formModel : Box = new Box(); // Sets formModel = to the Box class
   box: any;
-  boxes: Array<Box> = [];
+  boxes: Array<Box> = []; // an array of boxes
 
 
   constructor(private http : HttpService) {
@@ -25,9 +25,9 @@ export class AppComponent implements OnInit{
 
   async postForm(){
     if(this.formModel.id === 0){
-      await this.createBox();
+      await this.createBox(); // if the id = 0 no box needs to be editet so we know you want to crate
     } else {
-      await this.editBox(this.formModel.id);
+      await this.editBox(this.formModel.id); // Sets the id of the box class to be edits
     }
   }
 
@@ -44,7 +44,7 @@ export class AppComponent implements OnInit{
 
   async editBox(id: any) {
     const box = await this.http.editBox(id, this.formModel);
-    let indexToEdit = this.boxes.findIndex(b => b.id == id);
+    let indexToEdit = this.boxes.findIndex(b => b.id == id); // Sets the id of the box class for the url
     this.boxes[indexToEdit] = box;
     this.formModel = new Box();
   }
@@ -54,16 +54,16 @@ export class AppComponent implements OnInit{
   }
 
   clearForm(){
-    this.formModel = new Box();
+    this.formModel = new Box(); // sets the info to the base value we have whits is blank for txt fields and id is 0
   }
 }
-
+// is in change of the 3 txt fields information storing when creating or edit
 class BoxDto {
   size: string = "";
   customerName: string = "";
   type: string = "";
 }
-
+// Sets the id when it is needed
 class Box extends BoxDto{
   id: number = 0;
 }
