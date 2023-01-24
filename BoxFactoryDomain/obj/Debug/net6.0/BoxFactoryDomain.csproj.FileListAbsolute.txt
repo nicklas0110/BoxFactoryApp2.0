@@ -22,3 +22,17 @@ C:\Users\Reigstad\RiderProjects\BoxFactoryApp2.0\BoxFactoryDomain\obj\Debug\net6
 C:\Users\Reigstad\RiderProjects\BoxFactoryApp2.0\BoxFactoryDomain\obj\Debug\net6.0\refint\BoxFactoryDomain.dll
 C:\Users\Reigstad\RiderProjects\BoxFactoryApp2.0\BoxFactoryDomain\obj\Debug\net6.0\BoxFactoryDomain.pdb
 C:\Users\Reigstad\RiderProjects\BoxFactoryApp2.0\BoxFactoryDomain\obj\Debug\net6.0\ref\BoxFactoryDomain.dll
+C:\Users\Nicklas\Documents\GitHub\BoxFactoryApp2.0\BoxFactoryDomain\bin\Debug\net6.0\BoxFactoryDomain.deps.json
+C:\Users\Nicklas\Documents\GitHub\BoxFactoryApp2.0\BoxFactoryDomain\bin\Debug\net6.0\BoxFactoryDomain.runtimeconfig.json
+C:\Users\Nicklas\Documents\GitHub\BoxFactoryApp2.0\BoxFactoryDomain\bin\Debug\net6.0\BoxFactoryDomain.dll
+C:\Users\Nicklas\Documents\GitHub\BoxFactoryApp2.0\BoxFactoryDomain\bin\Debug\net6.0\BoxFactoryDomain.pdb
+C:\Users\Nicklas\Documents\GitHub\BoxFactoryApp2.0\BoxFactoryDomain\obj\Debug\net6.0\BoxFactoryDomain.csproj.AssemblyReference.cache
+C:\Users\Nicklas\Documents\GitHub\BoxFactoryApp2.0\BoxFactoryDomain\obj\Debug\net6.0\BoxFactoryDomain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nicklas\Documents\GitHub\BoxFactoryApp2.0\BoxFactoryDomain\obj\Debug\net6.0\BoxFactoryDomain.AssemblyInfoInputs.cache
+C:\Users\Nicklas\Documents\GitHub\BoxFactoryApp2.0\BoxFactoryDomain\obj\Debug\net6.0\BoxFactoryDomain.AssemblyInfo.cs
+C:\Users\Nicklas\Documents\GitHub\BoxFactoryApp2.0\BoxFactoryDomain\obj\Debug\net6.0\BoxFactoryDomain.csproj.CoreCompileInputs.cache
+C:\Users\Nicklas\Documents\GitHub\BoxFactoryApp2.0\BoxFactoryDomain\obj\Debug\net6.0\BoxFactoryDomain.dll
+C:\Users\Nicklas\Documents\GitHub\BoxFactoryApp2.0\BoxFactoryDomain\obj\Debug\net6.0\refint\BoxFactoryDomain.dll
+C:\Users\Nicklas\Documents\GitHub\BoxFactoryApp2.0\BoxFactoryDomain\obj\Debug\net6.0\BoxFactoryDomain.pdb
+C:\Users\Nicklas\Documents\GitHub\BoxFactoryApp2.0\BoxFactoryDomain\obj\Debug\net6.0\BoxFactoryDomain.genruntimeconfig.cache
+C:\Users\Nicklas\Documents\GitHub\BoxFactoryApp2.0\BoxFactoryDomain\obj\Debug\net6.0\ref\BoxFactoryDomain.dll

@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoxFactoryDomain", "BoxFact
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoxFactoryInfrastructure", "BoxFactoryInfrastructure\BoxFactoryInfrastructure.csproj", "{5D532895-0C76-480D-B9BF-28D743E7E8AB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{7D53C72A-A7B8-4BD5-B0D0-5393DAFAA7E4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{5D532895-0C76-480D-B9BF-28D743E7E8AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D532895-0C76-480D-B9BF-28D743E7E8AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D532895-0C76-480D-B9BF-28D743E7E8AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D53C72A-A7B8-4BD5-B0D0-5393DAFAA7E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D53C72A-A7B8-4BD5-B0D0-5393DAFAA7E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D53C72A-A7B8-4BD5-B0D0-5393DAFAA7E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D53C72A-A7B8-4BD5-B0D0-5393DAFAA7E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

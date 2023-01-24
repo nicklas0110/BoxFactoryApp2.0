@@ -22,7 +22,7 @@ public class BoxServive : IBoxService
         _mapper = mapper;
         _postValidator = postValidator;
         _boxValidator = productValidator;
-        _boxRepository = repository;
+        _boxRepository = repository ?? throw new ArgumentNullException();
     }
     
     
@@ -53,6 +53,9 @@ public class BoxServive : IBoxService
 
     public Box UpdateBox(int id, Box box)
     {
+        if (box == null)
+            throw new ArgumentException("Box cannot be null");
+        
         if (id != box.Id)
             throw new ValidationException("ID in body and route are different");
         var validation = _boxValidator.Validate(box);
@@ -64,6 +67,18 @@ public class BoxServive : IBoxService
 
     public Box DeleteBox(int id)
     {
+        if (id <= 0)
+            throw new ArgumentException("Id cannot be 0 or below");
+        
+        try
+        {
+            _boxRepository.GetBoxById(id);
+        }
+        catch (Exception e)
+        {
+            throw new ArgumentException("A box with the given Id does not exist");
+        }
+        
         return _boxRepository.DeleteBox(id);
     }
 }

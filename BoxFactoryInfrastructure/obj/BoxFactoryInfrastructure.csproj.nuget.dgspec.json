@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Reigstad\\RiderProjects\\BoxFactoryApp2.0\\BoxFactoryInfrastructure\\BoxFactoryInfrastructure.csproj": {}
+    "C:\\Users\\Nicklas\\Documents\\GitHub\\BoxFactoryApp2.0\\BoxFactoryInfrastructure\\BoxFactoryInfrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Reigstad\\RiderProjects\\BoxFactoryApp2.0\\BoxFactoryApplication\\BoxFactoryApplication.csproj": {
+    "C:\\Users\\Nicklas\\Documents\\GitHub\\BoxFactoryApp2.0\\BoxFactoryApplication\\BoxFactoryApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Reigstad\\RiderProjects\\BoxFactoryApp2.0\\BoxFactoryApplication\\BoxFactoryApplication.csproj",
+        "projectUniqueName": "C:\\Users\\Nicklas\\Documents\\GitHub\\BoxFactoryApp2.0\\BoxFactoryApplication\\BoxFactoryApplication.csproj",
         "projectName": "BoxFactoryApplication",
-        "projectPath": "C:\\Users\\Reigstad\\RiderProjects\\BoxFactoryApp2.0\\BoxFactoryApplication\\BoxFactoryApplication.csproj",
-        "packagesPath": "C:\\Users\\Reigstad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Reigstad\\RiderProjects\\BoxFactoryApp2.0\\BoxFactoryApplication\\obj\\",
+        "projectPath": "C:\\Users\\Nicklas\\Documents\\GitHub\\BoxFactoryApp2.0\\BoxFactoryApplication\\BoxFactoryApplication.csproj",
+        "packagesPath": "C:\\Users\\Nicklas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nicklas\\Documents\\GitHub\\BoxFactoryApp2.0\\BoxFactoryApplication\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Reigstad\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Nicklas\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -26,8 +26,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Reigstad\\RiderProjects\\BoxFactoryApp2.0\\BoxFactoryDomain\\BoxFactoryDomain.csproj": {
-                "projectPath": "C:\\Users\\Reigstad\\RiderProjects\\BoxFactoryApp2.0\\BoxFactoryDomain\\BoxFactoryDomain.csproj"
+              "C:\\Users\\Nicklas\\Documents\\GitHub\\BoxFactoryApp2.0\\BoxFactoryDomain\\BoxFactoryDomain.csproj": {
+                "projectPath": "C:\\Users\\Nicklas\\Documents\\GitHub\\BoxFactoryApp2.0\\BoxFactoryDomain\\BoxFactoryDomain.csproj"
               }
             }
           }
@@ -53,6 +53,10 @@
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
               "version": "[7.0.0-rc.2.22472.3, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
             }
           },
           "imports": [
@@ -61,7 +65,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -70,21 +75,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.405\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Reigstad\\RiderProjects\\BoxFactoryApp2.0\\BoxFactoryDomain\\BoxFactoryDomain.csproj": {
+    "C:\\Users\\Nicklas\\Documents\\GitHub\\BoxFactoryApp2.0\\BoxFactoryDomain\\BoxFactoryDomain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Reigstad\\RiderProjects\\BoxFactoryApp2.0\\BoxFactoryDomain\\BoxFactoryDomain.csproj",
+        "projectUniqueName": "C:\\Users\\Nicklas\\Documents\\GitHub\\BoxFactoryApp2.0\\BoxFactoryDomain\\BoxFactoryDomain.csproj",
         "projectName": "BoxFactoryDomain",
-        "projectPath": "C:\\Users\\Reigstad\\RiderProjects\\BoxFactoryApp2.0\\BoxFactoryDomain\\BoxFactoryDomain.csproj",
-        "packagesPath": "C:\\Users\\Reigstad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Reigstad\\RiderProjects\\BoxFactoryApp2.0\\BoxFactoryDomain\\obj\\",
+        "projectPath": "C:\\Users\\Nicklas\\Documents\\GitHub\\BoxFactoryApp2.0\\BoxFactoryDomain\\BoxFactoryDomain.csproj",
+        "packagesPath": "C:\\Users\\Nicklas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nicklas\\Documents\\GitHub\\BoxFactoryApp2.0\\BoxFactoryDomain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Reigstad\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Nicklas\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -107,13 +112,20 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -122,21 +134,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.405\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Reigstad\\RiderProjects\\BoxFactoryApp2.0\\BoxFactoryInfrastructure\\BoxFactoryInfrastructure.csproj": {
+    "C:\\Users\\Nicklas\\Documents\\GitHub\\BoxFactoryApp2.0\\BoxFactoryInfrastructure\\BoxFactoryInfrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Reigstad\\RiderProjects\\BoxFactoryApp2.0\\BoxFactoryInfrastructure\\BoxFactoryInfrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Nicklas\\Documents\\GitHub\\BoxFactoryApp2.0\\BoxFactoryInfrastructure\\BoxFactoryInfrastructure.csproj",
         "projectName": "BoxFactoryInfrastructure",
-        "projectPath": "C:\\Users\\Reigstad\\RiderProjects\\BoxFactoryApp2.0\\BoxFactoryInfrastructure\\BoxFactoryInfrastructure.csproj",
-        "packagesPath": "C:\\Users\\Reigstad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Reigstad\\RiderProjects\\BoxFactoryApp2.0\\BoxFactoryInfrastructure\\obj\\",
+        "projectPath": "C:\\Users\\Nicklas\\Documents\\GitHub\\BoxFactoryApp2.0\\BoxFactoryInfrastructure\\BoxFactoryInfrastructure.csproj",
+        "packagesPath": "C:\\Users\\Nicklas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nicklas\\Documents\\GitHub\\BoxFactoryApp2.0\\BoxFactoryInfrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Reigstad\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Nicklas\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -148,8 +160,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Reigstad\\RiderProjects\\BoxFactoryApp2.0\\BoxFactoryApplication\\BoxFactoryApplication.csproj": {
-                "projectPath": "C:\\Users\\Reigstad\\RiderProjects\\BoxFactoryApp2.0\\BoxFactoryApplication\\BoxFactoryApplication.csproj"
+              "C:\\Users\\Nicklas\\Documents\\GitHub\\BoxFactoryApp2.0\\BoxFactoryApplication\\BoxFactoryApplication.csproj": {
+                "projectPath": "C:\\Users\\Nicklas\\Documents\\GitHub\\BoxFactoryApp2.0\\BoxFactoryApplication\\BoxFactoryApplication.csproj"
               }
             }
           }
@@ -167,6 +179,10 @@
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.0-rc.2.22472.11, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
             }
           },
           "imports": [
@@ -175,7 +191,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -184,7 +201,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.405\\RuntimeIdentifierGraph.json"
         }
       }
     }
