@@ -67,8 +67,8 @@ public class BoxServive : IBoxService
 
     public Box DeleteBox(int id)
     {
-        if (id <= 0)
-            throw new ArgumentException("Id cannot be 0 or below");
+        //if (id <= 0)
+        //    throw new ArgumentException("Id cannot be 0 or below");
         
         try
         {
