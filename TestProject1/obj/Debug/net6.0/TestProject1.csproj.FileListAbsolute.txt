@@ -111,3 +111,5 @@ C:\Users\Nicklas\Documents\GitHub\BoxFactoryApp2.0\TestProject1\obj\Debug\net6.0
 C:\Users\Nicklas\Documents\GitHub\BoxFactoryApp2.0\TestProject1\obj\Debug\net6.0\TestProject1.pdb
 C:\Users\Nicklas\Documents\GitHub\BoxFactoryApp2.0\TestProject1\obj\Debug\net6.0\TestProject1.genruntimeconfig.cache
 C:\Users\Nicklas\Documents\GitHub\BoxFactoryApp2.0\TestProject1\obj\Debug\net6.0\ref\TestProject1.dll
+C:\Users\Nicklas\Documents\GitHub\BoxFactoryApp2.0\TestProject1\bin\Debug\net6.0\Autofac.dll
+C:\Users\Nicklas\Documents\GitHub\BoxFactoryApp2.0\TestProject1\bin\Debug\net6.0\AutoMapper.Contrib.Autofac.DependencyInjection.dll

@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "usGW8GhHYM4D2UuVtNP15S4x02oXZujDXwGt7vYoP6I1p8eagX2X0khJ4zBM6Bc/RFZmnt1tyMCy5N+cqiVxcQ==",
+  "dgSpecHash": "VUDg7PoOqFEGOD7bv/NIM2H6vyiWV7J7Jazm2cnA+RY0YmGHYEByYcREaJj8nUHzj5sQ/nO312gSmr0F+7o5xw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Nicklas\\Documents\\GitHub\\BoxFactoryApp2.0\\TestProject1\\TestProject1.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Nicklas\\.nuget\\packages\\autofac\\6.4.0\\autofac.6.4.0.nupkg.sha512",
     "C:\\Users\\Nicklas\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\Nicklas\\.nuget\\packages\\automapper.contrib.autofac.dependencyinjection\\7.0.0\\automapper.contrib.autofac.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\Nicklas\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\Nicklas\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\Nicklas\\.nuget\\packages\\fluentvalidation\\11.2.2\\fluentvalidation.11.2.2.nupkg.sha512",
@@ -44,7 +46,7 @@
     "C:\\Users\\Nicklas\\.nuget\\packages\\system.collections.concurrent\\4.3.0\\system.collections.concurrent.4.3.0.nupkg.sha512",
     "C:\\Users\\Nicklas\\.nuget\\packages\\system.console\\4.3.0\\system.console.4.3.0.nupkg.sha512",
     "C:\\Users\\Nicklas\\.nuget\\packages\\system.diagnostics.debug\\4.3.0\\system.diagnostics.debug.4.3.0.nupkg.sha512",
-    "C:\\Users\\Nicklas\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.3.0\\system.diagnostics.diagnosticsource.4.3.0.nupkg.sha512",
+    "C:\\Users\\Nicklas\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",
     "C:\\Users\\Nicklas\\.nuget\\packages\\system.diagnostics.eventlog\\6.0.0\\system.diagnostics.eventlog.6.0.0.nupkg.sha512",
     "C:\\Users\\Nicklas\\.nuget\\packages\\system.diagnostics.tools\\4.3.0\\system.diagnostics.tools.4.3.0.nupkg.sha512",
     "C:\\Users\\Nicklas\\.nuget\\packages\\system.diagnostics.tracing\\4.3.0\\system.diagnostics.tracing.4.3.0.nupkg.sha512",
