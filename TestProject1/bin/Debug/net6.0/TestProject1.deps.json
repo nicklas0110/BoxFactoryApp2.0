@@ -19,6 +19,17 @@
           "TestProject1.dll": {}
         }
       },
+      "Autofac/6.4.0": {
+        "dependencies": {
+          "System.Diagnostics.DiagnosticSource": "4.7.1"
+        },
+        "runtime": {
+          "lib/net6.0/Autofac.dll": {
+            "assemblyVersion": "6.4.0.0",
+            "fileVersion": "6.4.0.0"
+          }
+        }
+      },
       "AutoMapper/12.0.0": {
         "dependencies": {
           "Microsoft.CSharp": "4.7.0"
@@ -27,6 +38,18 @@
           "lib/netstandard2.1/AutoMapper.dll": {
             "assemblyVersion": "12.0.0.0",
             "fileVersion": "12.0.0.0"
+          }
+        }
+      },
+      "AutoMapper.Contrib.Autofac.DependencyInjection/7.0.0": {
+        "dependencies": {
+          "AutoMapper": "12.0.0",
+          "Autofac": "6.4.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/AutoMapper.Contrib.Autofac.DependencyInjection.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.0.0"
           }
         }
       },
@@ -538,15 +561,7 @@
           "System.Runtime": "4.3.0"
         }
       },
-      "System.Diagnostics.DiagnosticSource/4.3.0": {
-        "dependencies": {
-          "System.Collections": "4.3.0",
-          "System.Diagnostics.Tracing": "4.3.0",
-          "System.Reflection": "4.3.0",
-          "System.Runtime": "4.3.0",
-          "System.Threading": "4.3.0"
-        }
-      },
+      "System.Diagnostics.DiagnosticSource/4.7.1": {},
       "System.Diagnostics.EventLog/6.0.0": {
         "runtime": {
           "lib/net6.0/System.Diagnostics.EventLog.dll": {
@@ -720,7 +735,7 @@
           "Microsoft.NETCore.Platforms": "1.1.0",
           "System.Collections": "4.3.0",
           "System.Diagnostics.Debug": "4.3.0",
-          "System.Diagnostics.DiagnosticSource": "4.3.0",
+          "System.Diagnostics.DiagnosticSource": "4.7.1",
           "System.Diagnostics.Tracing": "4.3.0",
           "System.Globalization": "4.3.0",
           "System.Globalization.Extensions": "4.3.0",
@@ -1157,19 +1172,16 @@
       "BoxFactoryApplication/1.0.0": {
         "dependencies": {
           "AutoMapper": "12.0.0",
+          "AutoMapper.Contrib.Autofac.DependencyInjection": "7.0.0",
           "BoxFactoryDomain": "1.0.0",
           "FluentValidation": "11.2.2",
-          "Microsoft.Extensions.DependencyInjection": "7.0.0-rc.2.22472.3",
-          "xunit": "2.4.2"
+          "Microsoft.Extensions.DependencyInjection": "7.0.0-rc.2.22472.3"
         },
         "runtime": {
           "BoxFactoryApplication.dll": {}
         }
       },
       "BoxFactoryDomain/1.0.0": {
-        "dependencies": {
-          "xunit": "2.4.2"
-        },
         "runtime": {
           "BoxFactoryDomain.dll": {}
         }
@@ -1182,12 +1194,26 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Autofac/6.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tkFxl6wAPuwVhrlN8wuNADnd+k2tv4ReP7ZZSL0vjfcN0RcfC9v25ogxK6b03HC7D4NwWjSLf1G/zTG8Bw43wQ==",
+      "path": "autofac/6.4.0",
+      "hashPath": "autofac.6.4.0.nupkg.sha512"
+    },
     "AutoMapper/12.0.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-0Rmg0zI5AFu1O/y//o9VGyhxKjhggWpk9mOA1tp0DEVx40c61bs+lnQv+0jUq8XbniF7FKgIVvI1perqiMtLrA==",
       "path": "automapper/12.0.0",
       "hashPath": "automapper.12.0.0.nupkg.sha512"
+    },
+    "AutoMapper.Contrib.Autofac.DependencyInjection/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IPuit0gf99VRO76sAhRjynGpLg8nkEZu+p2cpCIGEwdCP4oW7N3nHjU5vLMGP9NI0D12BOL4hNzmMaYH1Du8rQ==",
+      "path": "automapper.contrib.autofac.dependencyinjection/7.0.0",
+      "hashPath": "automapper.contrib.autofac.dependencyinjection.7.0.0.nupkg.sha512"
     },
     "Castle.Core/5.1.1": {
       "type": "package",
@@ -1462,12 +1488,12 @@
       "path": "system.diagnostics.debug/4.3.0",
       "hashPath": "system.diagnostics.debug.4.3.0.nupkg.sha512"
     },
-    "System.Diagnostics.DiagnosticSource/4.3.0": {
+    "System.Diagnostics.DiagnosticSource/4.7.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-tD6kosZnTAGdrEa0tZSuFyunMbt/5KYDnHdndJYGqZoNy00XVXyACd5d6KnE1YgYv3ne2CjtAfNXo/fwEhnKUA==",
-      "path": "system.diagnostics.diagnosticsource/4.3.0",
-      "hashPath": "system.diagnostics.diagnosticsource.4.3.0.nupkg.sha512"
+      "sha512": "sha512-j81Lovt90PDAq8kLpaJfJKV/rWdWuEk6jfV+MBkee33vzYLEUsy4gXK8laa9V2nZlLM9VM9yA/OOQxxPEJKAMw==",
+      "path": "system.diagnostics.diagnosticsource/4.7.1",
+      "hashPath": "system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
     },
     "System.Diagnostics.EventLog/6.0.0": {
       "type": "package",

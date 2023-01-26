@@ -29,7 +29,6 @@ C:\Users\Reigstad\RiderProjects\BoxFactoryApp2.0\BoxFactoryApplication\obj\Debug
 C:\Users\Reigstad\RiderProjects\BoxFactoryApp2.0\BoxFactoryApplication\obj\Debug\net6.0\BoxFactoryApplication.pdb
 C:\Users\Reigstad\RiderProjects\BoxFactoryApp2.0\BoxFactoryApplication\obj\Debug\net6.0\ref\BoxFactoryApplication.dll
 C:\Users\Nicklas\Documents\GitHub\BoxFactoryApp2.0\BoxFactoryApplication\bin\Debug\net6.0\BoxFactoryApplication.deps.json
-C:\Users\Nicklas\Documents\GitHub\BoxFactoryApp2.0\BoxFactoryApplication\bin\Debug\net6.0\BoxFactoryApplication.runtimeconfig.json
 C:\Users\Nicklas\Documents\GitHub\BoxFactoryApp2.0\BoxFactoryApplication\bin\Debug\net6.0\BoxFactoryApplication.dll
 C:\Users\Nicklas\Documents\GitHub\BoxFactoryApp2.0\BoxFactoryApplication\bin\Debug\net6.0\BoxFactoryApplication.pdb
 C:\Users\Nicklas\Documents\GitHub\BoxFactoryApp2.0\BoxFactoryApplication\bin\Debug\net6.0\BoxFactoryDomain.dll
@@ -43,5 +42,4 @@ C:\Users\Nicklas\Documents\GitHub\BoxFactoryApp2.0\BoxFactoryApplication\obj\Deb
 C:\Users\Nicklas\Documents\GitHub\BoxFactoryApp2.0\BoxFactoryApplication\obj\Debug\net6.0\BoxFactoryApplication.dll
 C:\Users\Nicklas\Documents\GitHub\BoxFactoryApp2.0\BoxFactoryApplication\obj\Debug\net6.0\refint\BoxFactoryApplication.dll
 C:\Users\Nicklas\Documents\GitHub\BoxFactoryApp2.0\BoxFactoryApplication\obj\Debug\net6.0\BoxFactoryApplication.pdb
-C:\Users\Nicklas\Documents\GitHub\BoxFactoryApp2.0\BoxFactoryApplication\obj\Debug\net6.0\BoxFactoryApplication.genruntimeconfig.cache
 C:\Users\Nicklas\Documents\GitHub\BoxFactoryApp2.0\BoxFactoryApplication\obj\Debug\net6.0\ref\BoxFactoryApplication.dll

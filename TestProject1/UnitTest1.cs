@@ -11,6 +11,12 @@ namespace TestProject1;
 
 public class UnitTest1
 {
+
+    public UnitTest1()
+    {
+        // Disable translations
+        ValidatorOptions.Global.LanguageManager.Enabled = false;
+    }
     
     #region CreateBoxService
     
@@ -80,9 +86,9 @@ public class UnitTest1
      /// Tests that we get an exception when trying to create invalid boxes. Also tests that CreateNewBox is never called on the repository.
      /// </summary>
     [Theory]
-    [InlineData(null, "name", "type", "'Size' bør ikke være tom.")]       // invalid size. size == null
-    [InlineData("", "name", "type", "'Size' bør ikke være tom.")]         // invalid size. size == ""
-    [InlineData("size", "", "type", "'Customer Name' bør ikke være tom.")] // invalid name. name == ""
+    [InlineData(null, "name", "type", "'Size' must not be empty.")]       // invalid size. size == null
+    [InlineData("", "name", "type", "'Size' must not be empty.")]         // invalid size. size == ""
+    [InlineData("size", "", "type", "'Customer Name' must not be empty.")] // invalid name. name == ""
     public void CreateBox_InvalidBox_ExpectArgumentException_Test(string size, string customerName, string type, string expected)
     {
         // Arrange
@@ -153,10 +159,10 @@ public class UnitTest1
     /// Tests that an exception is thrown if a box with invalid data is provided. Also tests that UpdateBox is never called on the repository.
     /// </summary>
     [Theory]
-    [InlineData(0, "size", "name", "type", "'Id' skal være større end '0'.")]    // invalid id. Id <= 0
-    [InlineData(1, null, "name", "type", "'size' bør ikke være tom.")]                 // invalid size. size == null
-    [InlineData(1, "", "name", "type", "'size' bør ikke være tom.")]                     // invalid size. size == ""
-    [InlineData(1, "size", "", "type", "'customer Name' bør ikke være tom.")]                    // invalid name. name == ""
+    [InlineData(0, "size", "name", "type", "'Id' must be greater than '0'.")]    // invalid id. Id <= 0
+    [InlineData(1, null, "name", "type", "'size' must not be empty.")]                 // invalid size. size == null
+    [InlineData(1, "", "name", "type", "'size' must not be empty.")]                     // invalid size. size == ""
+    [InlineData(1, "size", "", "type", "'customer Name' must not be empty.")]                    // invalid name. name == ""
     public void UpdateBox_InvalidUpdate_ExpectArgumentException_Test(int id, string size, string customerName, string type, string expected)
     {
         // Arrange

@@ -496,6 +496,7 @@
       "BoxFactoryApplication/1.0.0": {
         "dependencies": {
           "AutoMapper": "12.0.0",
+          "AutoMapper.Contrib.Autofac.DependencyInjection": "7.0.0",
           "BoxFactoryDomain": "1.0.0",
           "FluentValidation": "11.2.2",
           "Microsoft.Extensions.DependencyInjection": "7.0.0-rc.2.22472.3"
@@ -511,6 +512,8 @@
       },
       "BoxFactoryInfrastructure/1.0.0": {
         "dependencies": {
+          "AutoMapper": "12.0.0",
+          "AutoMapper.Contrib.Autofac.DependencyInjection": "7.0.0",
           "BoxFactoryApplication": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.0-rc.2.22472.11"
         },
